@@ -1,0 +1,47 @@
+# Nama dan deskripsi proyek
+name: ghibli_view
+description: 'A new Flutter project.'
+publish_to: 'none' # Proyek ini tidak dipublikasikan ke pub.dev
+
+# Versi aplikasi: major.minor+build
+version: 1.0.0+1
+
+# Versi SDK Flutter minimum yang digunakan
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  # Paket Flutter utama
+  flutter:
+    sdk: flutter
+
+  # Ikon gaya iOS (Cupertino)
+  cupertino_icons: ^1.0.8
+
+  # 🌐 Untuk ambil data dari Ghibli API via HTTP
+  http: ^1.2.1
+
+  # 🖼️ Untuk caching dan loading gambar dari internet
+  cached_network_image: ^3.3.1
+
+  # 🔗 Untuk membuka link trailer YouTube dari aplikasi
+  url_launcher: ^6.2.1
+
+  # ❤️ Untuk menyimpan ID film favorit secara lokal
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  # Paket untuk testing widget di Flutter
+  flutter_test:
+    sdk: flutter
+
+  # Paket untuk linter (aturan penulisan kode)
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true # Menggunakan ikon dan tema material design
+
+  assets:
+    # Aset gambar lokal yang digunakan di aplikasi
+    - images/earwig.png
+    - images/ghibli_logo.png
