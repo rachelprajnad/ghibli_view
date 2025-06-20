@@ -1,6 +1,6 @@
 # ghibli_view
 
-A new Flutter project.
+Aplikasiku : https://github.com/rachelprajnad/ghibli_view/tree/main/APK
 
 ## Getting Started
 
