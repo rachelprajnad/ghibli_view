@@ -45,3 +45,15 @@ flutter:
     # Aset gambar lokal yang digunakan di aplikasi
     - images/earwig.png
     - images/ghibli_logo.png
+    - assets/images/totoro.jpg
+    - assets/images/chihiro.jpg
+    - assets/images/howl.jpg
+    - assets/images/mononoke.jpg
+    - assets/images/kiki.jpg
+    - assets/images/sophie.jpg
+    - assets/images/ponyo.jpg
+    - assets/images/Calcifer.jpg
+    - assets/images/Ashitaka.jpg
+    - assets/images/Satsuki.jpg
+    - assets/images/Gigi.jpg
+    - assets/images/jiji.jpg
